@@ -49,6 +49,10 @@
 <div id="wrapper">
 	<div id="upper-left">
 		<div id="clock"></div> <!-- Including the date/time-script -->
+				<div id="c_3350964eb97a313e6ee34fd39a366af6" class="normal">
+					<h2 style="color: #ffffff; margin: 0 0 3px; padding: 2px; font: bold 13px/1.2 Verdana; text-align: center;">Väder Vasastan</h2>
+				</div>
+					<script type="text/javascript" src="http://www.klart.se/widget/widget_loader/3350964eb97a313e6ee34fd39a366af6"></script>
 	</div>
 	<div id="upper-right">
 		<h2>...</h2>
@@ -78,9 +82,6 @@
 		<p>aftonbladet.se</p>
 	</div>
 	<div id="bottom">
-		<h2 style="color: #ffffff; margin: 0 0 3px; padding: 2px; font: bold 13px/1.2 Verdana; text-align: center;">Väder Vasastan</h2>
-		</div>
-			<script type="text/javascript" src="http://www.klart.se/widget/widget_loader/3350964eb97a313e6ee34fd39a366af6"></script>
 			<h3>
 		<?php // Depending on the hour of the day a different message is displayed.
 			$now = date('H');
