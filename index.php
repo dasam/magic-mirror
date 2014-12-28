@@ -78,7 +78,10 @@
 		<p>aftonbladet.se</p>
 	</div>
 	<div id="bottom">
-		<h3>
+		<h2 style="color: #ffffff; margin: 0 0 3px; padding: 2px; font: bold 13px/1.2 Verdana; text-align: center;">Väder Vasastan</h2>
+		</div>
+			<script type="text/javascript" src="http://www.klart.se/widget/widget_loader/3350964eb97a313e6ee34fd39a366af6"></script>
+			<h3>
 		<?php // Depending on the hour of the day a different message is displayed.
 			$now = date('H');
 				if (($now > 06) and ($now < 10)) echo 'God morgon!';

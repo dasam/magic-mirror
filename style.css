@@ -15,14 +15,14 @@ body {
 	and "bottom" needs to be changed in order to match your monitor's resolution */
 #wrapper { 
 	width: 750px;
-	height: 1300px;
+	height: 750px;
 	margin: 0 auto;
 }
 
 	#upper-left {
 		width: 325px;
 		margin: 50px 50px 0 0;
-		height: 1150px;
+		height: 850px;
 		float: left;
 		text-align: center;
 	}
