@@ -85,7 +85,7 @@
 				else if (($now >= 10) and ($now < 12)) echo 'Ha en bra dag!';
 				else if (($now >= 12) and ($now < 14)) echo 'Dags för lunch!';
 				else if (($now >= 14) and ($now < 17)) echo 'Kom och titta!';
-				else if (($now >= 17) and ($now < 20)) echo 'Dags att börja tänka på middag?';
+				else if (($now >= 17) and ($now < 20)) echo 'Gjort läxorna ännu?';
 				else if (($now >= 20) and ($now < 22)) echo 'Trevlig kväll!';
 				else if (($now >= 22) and ($now < 23)) echo 'Sov gott, ses imorgon!';
 				else if (($now >= 00) and ($now < 06)) echo 'Shh, jag sover...';
