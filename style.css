@@ -14,40 +14,56 @@ body {
 	/* The width and height of "wrapper", "upper-left", "upper-right"
 	and "bottom" needs to be changed in order to match your monitor's resolution */
 #wrapper { 
-	width: 750px;
-	height: 750px;
-	margin: 0 auto;
+    background: #F0F0F0;
+    width: 640px;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    display: block;
+    position: absolute;
+    border-radius: 15px;
 }
 
 	#upper-left {
-		width: 340px;
-		margin: 50px 50px 0 0;
-		height: 850px;
-		float: left;
+        background: #747171;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        display: block;
+        float: left;
+        border-radius: 15px;
 		text-align: right;
 	}
 	
 	#upper-right {
-		width: 340px;
-		height: 700px;
-		margin: 150px 35px 0 0;
-		float: left;
+        background: #747171;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        display: block;
+        float: left;
+        border-radius: 15px; 
 		text-align: right;
 	}
 	
 	#lower-left {
-		width: 340px;
-		height: 700px;
-		margin: 150px 35px 0 0;
-		float: left;
+        background: #747171;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        display: block;
+        float: left;
+        clear: left;
 		text-align: right;
 	}
 	
 	#lower-right {
-		width: 340px;
-		height: 700px;
-		margin: 150px 35px 0 0;
-		float: left;
+        background: #747171;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        display: block;
+        float: left;
 		text-align: right;
 	}
 	
