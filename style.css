@@ -19,9 +19,9 @@ body {
 	/* The width and height of "wrapper", "upper-left", "upper-right"
 	and "bottom" needs to be changed in order to match your monitor's resolution */
 #wrapper { 
-    background: #F0F0F0;
+    background: #000;
     width: 850px;
-    height: auto;
+    height: 850px;
     margin: auto;
     padding: 1px;
     display: block;
@@ -30,42 +30,39 @@ body {
 }
 
 	#upper-left {
-        background: #747171;
+        background: #000;
         width: 400px;
-        height: 300px;
+        height: 400px;
         display: block;
         float: left;
-        border-radius: 15px;
-		text-align: right;
+		text-align: left;
 	}
 	
 	#upper-right {
-        background: #747171;
+        background: #000;
         width: 400px;
-        height: 300px;
+        height: 400px;
         display: block;
         float: left;
-        border-radius: 15px; 
-		text-align: right;
+		text-align: left;
 	}
 	
 	#lower-left {
-        background: #747171;
+        background: #000;
         width: 400px;
-        height: 300px;
+        height: 400px;
         display: block;
         float: left;
-        clear: left;
-		text-align: right;
+		text-align: center;
 	}
 	
 	#lower-right {
-        background: #747171;
+        background: #000;
         width: 400px;
-        height: 300px;
+        height: 400px;
         display: block;
         float: left;
-		text-align: right;
+		text-align: left;
 	}
 	
 	#bottom {

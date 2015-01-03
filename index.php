@@ -63,13 +63,12 @@
 		
 		
 	</div>
-		<div id="lower-left">
+	<div id="lower-left">
 			<div id="c_3350964eb97a313e6ee34fd39a366af6" class="normal">
-				<h2 style="color: #ffffff; margin: 0 0 3px; padding: 2px; font: bold 13px/1.2 Verdana; text-align: center;">Väder Vasastan</h2>
-				</div>
+		
 				<script type="text/javascript" src="http://www.klart.se/widget/widget_loader/3350964eb97a313e6ee34fd39a366af6"></script>
 	</div>
-		
+		</div>
 				
 	<div id="lower-right">
 	<p>aftonbladet.se</p>
@@ -104,13 +103,13 @@
 			<h3>
 		<?php // Depending on the hour of the day a different message is displayed.
 			$now = date('H');
-				if (($now > 06) and ($now < 10)) echo 'God morgon!';
+				if (($now > 06) and ($now < 10)) echo 'Yippee en ny underbar morgon!';
 				else if (($now >= 10) and ($now < 12)) echo 'Ha en bra dag!';
 				else if (($now >= 12) and ($now < 14)) echo 'Dags för lunch!';
 				else if (($now >= 14) and ($now < 17)) echo 'Kom och titta!';
 				else if (($now >= 17) and ($now < 20)) echo 'Gjort läxorna ännu?';
-				else if (($now >= 20) and ($now < 22)) echo 'Trevlig kväll!';
-				else if (($now >= 22) and ($now < 23)) echo 'Sov gott, ses imorgon!';
+				else if (($now >= 20) and ($now < 22)) echo 'Dax att sova!!!';
+				else if (($now >= 22) and ($now < 23)) echo 'Shh jag ska sova nu..';
 				else if (($now >= 00) and ($now < 06)) echo 'Shh, jag sover...';
 			?>
 		</h3>
