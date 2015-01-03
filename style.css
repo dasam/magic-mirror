@@ -6,6 +6,11 @@
 }
 	
 body {
+
+    width: 660px;
+    display: block;
+    margin: 10px auto;
+	
 	background: #000;
 	color: #fff;
 }
@@ -15,7 +20,7 @@ body {
 	and "bottom" needs to be changed in order to match your monitor's resolution */
 #wrapper { 
     background: #F0F0F0;
-    width: 640px;
+    width: 850px;
     height: auto;
     margin: auto;
     padding: 1px;
@@ -26,9 +31,8 @@ body {
 
 	#upper-left {
         background: #747171;
-        width: 300px;
+        width: 400px;
         height: 300px;
-        margin: 10px;
         display: block;
         float: left;
         border-radius: 15px;
@@ -37,9 +41,8 @@ body {
 	
 	#upper-right {
         background: #747171;
-        width: 300px;
+        width: 400px;
         height: 300px;
-        margin: 10px;
         display: block;
         float: left;
         border-radius: 15px; 
@@ -48,9 +51,8 @@ body {
 	
 	#lower-left {
         background: #747171;
-        width: 300px;
+        width: 400px;
         height: 300px;
-        margin: 10px;
         display: block;
         float: left;
         clear: left;
@@ -59,9 +61,8 @@ body {
 	
 	#lower-right {
         background: #747171;
-        width: 300px;
+        width: 400px;
         height: 300px;
-        margin: 10px;
         display: block;
         float: left;
 		text-align: right;

@@ -49,6 +49,7 @@
 <div id="wrapper">
 	<div id="upper-left">
 		<!-- Including the date/time-script -->
+		<h1></h1>
 		<div id="clock"></div>
 	</div> 
 
