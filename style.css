@@ -20,14 +20,30 @@ body {
 }
 
 	#upper-left {
-		width: 325px;
+		width: 340px;
 		margin: 50px 50px 0 0;
 		height: 850px;
 		float: left;
-		text-align: center;
+		text-align: right;
 	}
 	
 	#upper-right {
+		width: 340px;
+		height: 700px;
+		margin: 150px 35px 0 0;
+		float: left;
+		text-align: right;
+	}
+	
+	#lower-left {
+		width: 340px;
+		height: 700px;
+		margin: 150px 35px 0 0;
+		float: left;
+		text-align: right;
+	}
+	
+	#lower-right {
 		width: 340px;
 		height: 700px;
 		margin: 150px 35px 0 0;
