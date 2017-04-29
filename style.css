@@ -4,13 +4,13 @@
 	margin: 0;
 	padding: 0;
 }
-	
+
 body {
 
     width: 660px;
     display: block;
     margin: 10px auto;
-	
+
 	background: #000;
 	color: #fff;
 }
@@ -18,7 +18,7 @@ body {
 /* LAYOUT */
 	/* The width and height of "wrapper", "upper-left", "upper-right"
 	and "bottom" needs to be changed in order to match your monitor's resolution */
-#wrapper { 
+#wrapper {
     background: #000;
     width: 850px;
     height: 850px;
@@ -37,16 +37,16 @@ body {
         float: left;
 		text-align: left;
 	}
-	
+
 	#upper-right {
         background: #000;
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 600px;
         display: block;
         float: left;
 		text-align: left;
 	}
-	
+
 	#lower-left {
         background: #000;
         width: 400px;
@@ -55,7 +55,7 @@ body {
         float: left;
 		text-align: center;
 	}
-	
+
 	#lower-right {
         background: #000;
         width: 400px;
@@ -64,7 +64,7 @@ body {
         float: left;
 		text-align: left;
 	}
-	
+
 	#bottom {
 		width: 550px;
 		height: 100px;
@@ -87,25 +87,25 @@ h2 {
 	font-size: 24px;
 	font-weight: 300;
 	}
-	
+
 h2.smaller {
 	font-size: 22px;
 	letter-spacing: 1px;
-	}	
-	
+	}
+
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 42px;
 	font-weight: 300;
 	padding: 20px 0 0 0;
 	}
-	
+
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	}	
-	
+	}
+
 p.date {
 	font-size: 12px;
 	font-weight: 600;
