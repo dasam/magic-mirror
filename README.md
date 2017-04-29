@@ -1,4 +1,4 @@
 magic-mirror
 ============
 
-Våran kod (php) till våran raspberry pi som är hämtad från IDG
+Kod (php) till våran raspberry pi som är hämtad från IDG
