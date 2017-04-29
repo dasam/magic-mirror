@@ -8,13 +8,13 @@
 	<link rel="stylesheet" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 		<script language="JavaScript"> <!-- Getting the current date and time and updates them every second -->
-			setInterval(function() { 
+			setInterval(function() {
 				var currentTime = new Date ( );
-				var currentHours = currentTime.getHours ( );   
+				var currentHours = currentTime.getHours ( );
 				var currentMinutes = currentTime.getMinutes ( );
 				var currentMinutesleadingzero = currentMinutes > 9 ? currentMinutes : '0' + currentMinutes; // If the number is 9 or below we add a 0 before the number.
 				var currentDate = currentTime.getDate ( );
-	
+
 					var weekday = new Array(7);
 					weekday[0] = "Söndag";
 					weekday[1] = "Måndag";
@@ -23,8 +23,8 @@
 					weekday[4] = "Torsdag";
 					weekday[5] = "Fredag";
 					weekday[6] = "Lördag";
-				var currentDay = weekday[currentTime.getDay()]; 
-	
+				var currentDay = weekday[currentTime.getDay()];
+
 					var actualmonth = new Array(12);
 					actualmonth[0] = "Januari";
 					actualmonth[1] = "Februari";
@@ -51,25 +51,21 @@
 		<!-- Including the date/time-script -->
 		<h1></h1>
 		<div id="clock"></div>
-	</div> 
+	</div>
 
 	<div id="upper-right">
 		<h2></h2>
-		<!-- start feedwind code -->
-		<script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
-		</script><script type="text/javascript">(function() {var params = {rssmikle_url: "https://www.google.com/calendar/feeds/elvira.samuelsson@gmail.com/public/basic",rssmikle_frame_width: "300",rssmikle_frame_height: "400",frame_height_by_article: "5",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "off",autoscroll: "off",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "Elviras kalender",rssmikle_title_link: "",rssmikle_title_bgcolor: "#000000",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#000001",rssmikle_item_bgimage: "",rssmikle_item_title_length: "60",rssmikle_item_title_color: "#FFFFFF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "title_only",item_link: "off",rssmikle_item_description_length: "200",rssmikle_item_description_color: "#FFFFFF",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %k:%M:%S",item_description_style: "text",item_thumbnail: "full",article_num: "5",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();
-		</script><div style="font-size:10px; text-align:center; width:300px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;"></a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code --> 
-				
-		
-		
+		<!-- start tyska skolans matsedel -->
+		<iframe src="http://mpi.mashie.se/public/menu/KK%20Brunnsgatan/7938CE10?old=True"></iframe>
+
 	</div>
 	<div id="lower-left">
 			<div id="c_3350964eb97a313e6ee34fd39a366af6" class="normal">
-		
+
 				<script type="text/javascript" src="http://www.klart.se/widget/widget_loader/3350964eb97a313e6ee34fd39a366af6"></script>
 	</div>
 		</div>
-				
+
 	<div id="lower-right">
 	<p>aftonbladet.se</p>
 <?php // Code for getting the RSS-news-feed
@@ -84,7 +80,7 @@
 					);
 				array_push($feed, $item);
 				}
-   
+
 		$limit = 3; // Number of posts to be displayed
 			for($x=0;$x<$limit;$x++) {
 				$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
@@ -95,10 +91,10 @@
 				echo '<p>'.strip_tags($description, '<p><b>').'</p><h2>...</h2>';
 			}
 		?>
-		
+
 		</div>
-		
-		
+
+
 	<div id="bottom">
 			<h3>
 		<?php // Depending on the hour of the day a different message is displayed.
