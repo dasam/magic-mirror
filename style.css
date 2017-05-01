@@ -40,6 +40,9 @@ body {
 
 	#upper-right {
         background: #000;
+				border: 0;
+  			border-style: none;
+  			border-color: transparent;
         width: 450px;
         height: 600px;
         display: block;
