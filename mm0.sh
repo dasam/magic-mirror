@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Define the tested version of Node.js. 
+# Define the tested version of Node.js.
 NODE_TESTED="v5.1.0"
 
 #define helper methods.
@@ -42,22 +42,22 @@ fi
 
 # Install or upgare node if nessecery.
 if $NODE_INSTALL; then
-	
+
 	echo -e "\e[96mInstalling Node.js ...\e[90m"
 
 	#Fetch the latest version of Node.js from the selected branch
 	#The NODE_STABLE_BRANCH variable will need to be manually adjusted when a new branch is released. (e.g. 7.x)
 	#Only tested (stable) versions are recommended as newer versions could break MagicMirror.
-	
+
 	NODE_STABLE_BRANCH="6.x"
 	#curl -sL https://deb.nodesource.com/setup_$NODE_STABLE_BRANCH | sudo -E bash -
 	#sudo apt-get install -y nodejs
 	sudo apt-get remove nodejs
 	sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*} /var/db/receipts/org.nodejs.*
 	hash -r
-	wget https://nodejs.org/dist/latest-v6.x/node-v6.2.2-linux-armv6l.tar.gz
-	tar -xvf node-v6.2.2-linux-armv6l.tar.gz
-	cd node-v6.2.2-linux-armv6l
+	wget https://nodejs.org/dist/v6.10.2/node-v6.10.2.tar.gz
+	tar -xvf node-v6.10.2.tar.gz
+	cd node-v6.10.2
 	sudo cp -R * /usr/local/
 	cd
 	echo -e "\e[92mNode.js installation Done!\e[0m"
@@ -76,7 +76,7 @@ if [ -d "$HOME/MagicMirror" ] ; then
 fi
 
 echo -e "\e[96mCloning MagicMirror ...\e[90m"
-if git clone https://github.com/MichMich/MagicMirror.git; then 
+if git clone https://github.com/MichMich/MagicMirror.git; then
 	echo -e "\e[92mCloning MagicMirror Done!\e[0m"
 else
 	echo -e "\e[91mUnable to clone MagicMirror."
@@ -85,7 +85,7 @@ fi
 
 cd ~/MagicMirror  || exit
 echo -e "\e[96mInstalling dependencies ...\e[90m"
-if npm install; then 
+if npm install; then
 	echo -e "\e[92mDependencies installation Done!\e[0m"
 else
 	echo -e "\e[91mUnable to install dependencies!"
@@ -103,7 +103,7 @@ sudo touch /home/pi/MagicMirror/installers/start.sh
 sudo echo 'cd ~/MagicMirror
 node serveronly &
 sleep 30
-xinit /usr/bin/kweb -KJE4 “http://localhost:8080”' >> /home/pi/MagicMirror/installers/start.sh
+xinit /usr/bin/kweb -KJE4 ï¿½http://localhost:8080ï¿½' >> /home/pi/MagicMirror/installers/start.sh
 sudo echo "/home/pi/MagicMirror/installers/start.sh" >> /home/pi/.bashrc
 
 echo -e "\e[92mErase Package Download\e[0m"
