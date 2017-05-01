@@ -55,9 +55,9 @@ if $NODE_INSTALL; then
 	sudo apt-get remove nodejs
 	sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*} /var/db/receipts/org.nodejs.*
 	hash -r
-	wget https://nodejs.org/dist/v6.10.2/node-v6.10.2.tar.gz
-	tar -xvf node-v6.10.2.tar.gz
-	cd node-v6.10.2
+	wget https://nodejs.org/dist/v6.10.2/node-v6.10.2-linux-armv6l.tar.xz
+	tar -xvf node-v6.10.2-linux-armv6l.tar.xz
+	cd node-v6.10.2-linux-armv6l
 	sudo cp -R * /usr/local/
 	cd
 	echo -e "\e[92mNode.js installation Done!\e[0m"
